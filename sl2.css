@@ -1,0 +1,41 @@
+body{
+    font-family: helvetica, sans-serif;
+}
+a:link, a:visited{
+    color: #f60;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#caixa1{
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    padding: 10px 20px;
+}
+header nav ul{
+    list-style: none;
+    padding: 20px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;    
+}
+#caixa2{
+    float: left;
+    width: 660px;
+}
+#caixa3{
+    float: right;
+    width: 300px;
+}
+#caixa3 ul{
+    list-style: none;
+}
+footer{
+    clear: both;
+}
